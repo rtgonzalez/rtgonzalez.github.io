@@ -1,0 +1,130 @@
+
+.channelNumbersDiv{
+    width:100%;
+    height:100%;
+    background: #000000b5;
+    position: absolute;
+    display: none;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.num{
+    
+}
+.chtxt{
+    font-size: xx-small;
+    display:block;
+}
+.mixer th{
+    width:100px;
+}
+.volumeSlider {
+	width: 200px;
+	display: inline;
+}
+
+.menu{
+    
+}
+.tv_button{
+    width: 50px;
+    padding: 0.275rem
+rem
+ 0.65rem important!;
+}
+.channels_row{
+    padding: 0px 0px 0px 0px;
+}
+.channel{
+    width: 80px;
+    border: 1px;
+}
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #c2dcfa;
+}
+  
+.horizontal-scrollable > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+}
+/* Decorations */
+  
+.col-xs-4 {
+    color: white;
+    font-size: 24px;
+    /* padding-bottom: 20px; */
+    /* padding-top: 18px; */
+}
+.tvError{
+    background-color:red;
+}
+.remoteButton{
+    /* display: inline-block; */
+    padding: 4px 10px 4px;
+    font-size: 13px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgb(255 255 255 / 75%);
+    background-color: #fafafa;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    cursor: pointer;
+    *
+    margin-left: .3em;
+    }
+
+.nonum{
+    height: 30px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+.btnJoy{
+
+}
+.volumeButton{
+    /* display: inline-block; */
+    padding: 4px 10px 4px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgb(255 255 255 / 75%);
+    background-color: #fafafa;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    cursor: pointer;
+    *
+    margin-left: .3em;
+    }

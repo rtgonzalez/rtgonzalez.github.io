@@ -1,0 +1,93 @@
+[
+{
+    "domain": ".directv.com",
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "s_ppv",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "DTVE%253AGuide%253AIndex%2C0%2C0%2C0%2C1440%2C272%2C1440%2C900%2C2%2CL",
+    "id": 1
+},
+{
+    "domain": ".directv.com",
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "s_pvs",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "37",
+    "id": 2
+},
+{
+    "domain": ".directv.com",
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "s_tps",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "NaN",
+    "id": 3
+},
+{
+    "domain": "www.directv.com",
+    "hostOnly": true,
+    "httpOnly": true,
+    "name": "dtv-lsid",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "cl9eltrwe2g15zyqvqf5oihrk",
+    "id": 4
+},
+{
+    "domain": "www.directv.com",
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "dtve-prospect-state",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "WA",
+    "id": 6
+},
+{
+    "domain": "www.directv.com",
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "dtve-prospect-zip",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "98008%7CAmerica%2FLos_Angeles",
+    "id": 7
+},
+{
+    "domain": "www.directv.com",
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "intent",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "1",
+    "value": "all",
+    "id": 10
+}
+]

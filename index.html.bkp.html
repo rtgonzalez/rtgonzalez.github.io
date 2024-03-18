@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Trenchers Management</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+    <script src="js/jquery-3.6.1.min.js"></script>
+<link href="/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="/js/bootstrap-toggle.min.js"></script>
+	  
+	<link href="https://fonts.googleapis.com/css?family=Nunito:800i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/onoff.css">
+	
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	    <link href="./fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="./fontawesome/css/brands.css" rel="stylesheet">
+  <link href="./fontawesome/css/solid.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	  	<link rel="stylesheet" href="css/remote.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+						<i class="fa-solid fa-chevron-left" style="color: white;"></i>
+			        </button>
+
+	    	</nav>
+
+        <!-- Page Content  -->
+			<div id="content" class="mainview">
+     
+			</div>
+		</div>
+
+<!--------- MODAL --->
+<div class="modal fade" id="modalGuide" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="guideModalTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm">
+             <img width=100px id="guideAlbum" onerror="this.onerror=null;this.src='https://www.directv.com/img/movies.jpg';"/>
+           </div>
+           <div class="col-sm">
+             <span id="guideStartTime"></span>
+             <span id="guideDuration"></span>
+             <span id="guideChannel"></span>
+             <span id="guideRepeat"></span>
+             <input type="hidden" id="guideChannelNum"/>
+           </div>
+         </div>
+         <div class="row">
+          <div class="input" id="tvselector" style="text-align: center;">
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv1">TV1<span class="chtxt" id="tv1ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv2">TV2<span class="chtxt" id="tv2ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv3">TV3<span class="chtxt" id="tv3ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv4">TV4<span class="chtxt" id="tv4ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv5">TV5<span class="chtxt" id="tv5ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv6">TV6<span class="chtxt" id="tv6ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv7">TV7<span class="chtxt" id="tv7ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv8">TV8<span class="chtxt" id="tv8ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv9">TV9<span class="chtxt" id="tv9ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv10">TV10<span class="chtxt" id="tv10ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv12">TV12<span class="chtxt" id="tv12ch"></span></button>
+			  <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv13">TV13<span class="chtxt" id="tv13ch"></span></button>
+
+            </div>
+         </div>
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="tuneGuide">Tune Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+
+	  
+
+
+
+
+
+	  
+	<div class="internetFailures" id="internetFailures">Internet connection failures</div>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/underscore-1.2.2.js"></script>
+	  <script type="text/javascript" src="js/dtv.remote.api.js"></script>
+	  <script type="text/javascript" src="js/dtv.remote.api.example.js"></script>
+	  <script type="text/javascript" src="js/slider.js"></script>
+  </body>
+</html>

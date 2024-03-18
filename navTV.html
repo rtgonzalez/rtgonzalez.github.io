@@ -1,0 +1,185 @@
+ <div id="contentRemote" class="" style="width:100%;padding: 0.7rem !important;">
+        <h4 style="margin-left: 4rem;">Remote Control</h4>
+		  
+			   <div id="main-page-header">
+
+            <div class="input" id="tvselector" style="text-align: center;">
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv1">TV1<span class="chtxt" id="tv1ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv2">TV2<span class="chtxt" id="tv2ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv3">TV3<span class="chtxt" id="tv3ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv4">TV4<span class="chtxt" id="tv4ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv5">TV5<span class="chtxt" id="tv5ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv6">TV6<span class="chtxt" id="tv6ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv7">TV7<span class="chtxt" id="tv7ch"></span></button>              
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv8">TV8<span class="chtxt" id="tv8ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv9">TV9<span class="chtxt" id="tv9ch"></span></button>
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv10">TV10<span class="chtxt" id="tv10ch"></span></button>
+              <!--<button type="button" class="btn btn-outline-primary" data-toggle="button" autocomplete="off" id="tv11">TV11</button>-->
+              <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv12">TV12<span class="chtxt" id="tv12ch"></span></button>
+			  <button type="button" class="tv_button btn btn-outline-primary" data-toggle="button" autocomplete="off"  id="tv13">TV13<span class="chtxt" id="tv13ch"></span></button>
+
+            </div>
+<!--
+      <div class="row">
+        <div class="span6">
+          <h3 id="program-title">Program Title <small id="episode-title">Episode title</small></h3>
+        </div>
+        <div class="span6 text-right">
+          <h3 id="program-callsign">Channel Callsign <small id="channel">Channel</small></h3>
+        </div>
+      </div>
+    </div>
+-->
+	<div class="container" style="position:relative">
+		<div class="channelNumbersDiv" id="channelNumbersDiv"></div>
+                    <div class="container horizontal-scrollable">
+                <div class="channels_row row text-center">
+					<button class="btn btn-default col-xs-4">
+	                    <img id="13" class="channel" src="images/fox.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="219" class="channel" src="images/fs.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="5" class="channel" src="images/nbc.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="206" class="channel" src="images/espn.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="247" class="channel" src="images/tbs.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="687" class="channel" src="images/mariners.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="216" class="channel" src="images/nba.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="215" class="channel" src="images/nhl.png">
+					</button>
+					<button class="btn btn-default col-xs-4">
+	                    <img id="4" class="channel" src="images/abc.png">
+					</button>
+                </div>
+            </div>
+	</div>
+	<div class="container" id="cols">
+		
+		<div class="row">
+			<div class="col">
+				<div class="container" id="remote-buttons">
+
+<div class="row d-flex justify-content-center">
+       <!--<div class="span12 text-center">
+          <a href="#" id="up" class="remoteButton btn">up</a>
+          <a href="#" id="down" class="remoteButton btn">down</a>
+          <a href="#" id="select" class="btn-warning remoteButton btn ">select</a>
+          <a href="#" id="left" class="remoteButton btn">left</a>
+          <a href="#" id="right" class="remoteButton btn">right</a>
+        </div>-->
+				<div id="joystick" style="width:60%">
+			  <svg width="100%" height="100%" viewBox="0 0 100 100">
+			    <defs>
+			      <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+			        <stop offset="0%" style="stop-color:rgb(16,16,16);stop-opacity:1" />
+			        <stop offset="100%" style="stop-color:rgb(240,240,240);stop-opacity:1" />
+			      </linearGradient>
+			      <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+			        <stop offset="0%" style="stop-color:rgb(240,240,240);stop-opacity:1" />
+			        <stop offset="100%" style="stop-color:rgb(16,16,16);stop-opacity:1" />
+			      </linearGradient>
+			      <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+			        <stop offset="0%" style="stop-color:rgb(168,168,168);stop-opacity:1" />
+			        <stop offset="100%" style="stop-color:rgb(239,239,239);stop-opacity:1" />
+			      </linearGradient>
+			    </defs>
+			    <circle cx="50" cy="50" r="50" fill="url(#grad1)" />
+			    <circle cx="50" cy="50" r="47" fill="url(#grad2)" stroke="black" stroke-width="1.5px" />
+			    <circle cx="50" cy="50" r="44" fill="url(#grad3)" />
+			    <circle cx="50" cy="50" r="20" fill="#FEBB3D" stroke="black" stroke-width="1px" id='select' class="btnJoy" />
+			    <path d="M50,14 54,22 46,22Z" fill="rgba(0,0,0,0.8)" id='up' class="btnJoy" />
+			    <path d="M50,86 54,78 46,78Z" fill="rgba(0,0,0,0.8)" id='down' class="btnJoy" />
+			    <path d="M14,50 22,54 22,46Z" fill="rgba(0,0,0,0.8)" id='left' class="btnJoy"/>
+			    <path d="M86,50 78,54 78,46Z" fill="rgba(0,0,0,0.8)" id='right' class="btnJoy" />
+			  </svg>
+			</div>
+		
+      </div>
+
+
+					
+      <div class="row d-flex justify-content-center">
+
+
+		  
+        <div class="span12 d-flex justify-content-center text-center">
+		          <a href="#" id="menu" class="nonum remoteButton btn">menu</a>
+
+          <a href="#" id="powerOff" class="nonum remoteButton btn" style="background-image: linear-gradient(#f29898, #ed4a4a 25%, #c31818);color: white;">OFF</a>
+		  <a href="#" id="powerOn" class="nonum remoteButton btn" style="background-image: linear-gradient(#8bcb7f, #38bf62 25%, #0f8031);color: white;">ON</a>
+
+		</div>
+      </div>
+       <div class="row d-flex justify-content-center">
+        <div class="span12 text-center">
+					  <a href="#" id="power" class="nonum remoteButton btn" style="">Power DTV</a>
+          <a href="#" id="guide" class="nonum remoteButton btn">guide</a>
+          <a href="#" id="active" class="nonum remoteButton btn">active</a>
+          <a href="#" id="list" class="nonum remoteButton btn">list</a>
+          <a href="#" id="exit" class="nonum remoteButton btn">exit</a>
+        </div>
+      </div>
+	  <div class="row d-flex justify-content-center">
+        <div class="span12 text-center">
+	      <a href="#" id="back" class="nonum remoteButton btn">back</a>
+          <a href="#" id="chanup" class="nonum remoteButton btn">ch/page &#8593;</a>
+          <a href="#" id="chandown" class="nonum remoteButton btn">ch/page &#8595;</a>
+          <a href="#" id="prev" class="nonum remoteButton btn">prev</a>
+		          <a href="#" id="info" class="nonum remoteButton btn">info</a>
+          <a href="#" id="format" class="nonum remoteButton btn">format</a>
+        </div>
+      </div>
+      
+
+				</div>
+
+				
+			</div>
+			<div class="col">
+
+				<div class="container">
+					<div class="row">
+						<div id="1" class="col remoteButton num">1</div>
+						<div id="2" class="col remoteButton num">2</div>
+						<div id="3" class="col remoteButton num">3</div>
+					</div>
+
+      <div class="row">
+          <div id="4" class="col remoteButton  num">4</div>
+          <div id="5" class="col remoteButton  num">5</div>
+          <div id="6" class="col remoteButton  num">6</div>
+      </div>
+      <div class="row">
+          <div id="7" class="col remoteButton  num">7</div>
+          <div id="8" class="col remoteButton  num">8</div>
+          <div id="9" class="col remoteButton  num">9</div>
+      </div>
+      <div class="row">
+          <div id="dash" class="col remoteButton ">dash</div>
+          <div id="0" class="col remoteButton  num">0</div>
+          <div id="enter" class="col remoteButton ">enter</div>
+      </div>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>		
+
+      
+    </div>
+
+
+		  
+       </div>

@@ -1,0 +1,76 @@
+{
+"tvs":[
+    {"tv":"tv1","local":"tv1","remote":"tv1.trencherskitchenandtap.com", "errors":0, "device": "eb8f24d1ad25fa68e6tmam"},
+    {"tv":"tv2","local":"tv2","remote":"tv2.trencherskitchenandtap.com", "errors":0, "device": "ebfd6a92c77db99d14x6yo"},
+    {"tv":"tv3","local":"tv3","remote":"tv3.trencherskitchenandtap.com", "errors":0, "device": "eb627bd077a2759a9ef2bk"},
+    {"tv":"tv4","local":"tv4","remote":"tv4.trencherskitchenandtap.com", "errors":0, "device": "ebd2834693c372b4cbfogw"},
+    {"tv":"tv5","local":"tv5","remote":"tv5.trencherskitchenandtap.com", "errors":0, "device": "ebdb484fdb450bc2fbeiwi"},
+    {"tv":"tv6","local":"tv6","remote":"tv6.trencherskitchenandtap.com", "errors":0, "device": "ebeea10e38a84ffdd78pq0"},
+    {"tv":"tv7","local":"tv7","remote":"tv7.trencherskitchenandtap.com", "errors":0, "device": "ebc6e997dcac345bd929nu"},
+    {"tv":"tv8","local":"tv8","remote":"tv8.trencherskitchenandtap.com", "errors":0, "device": "ebf3aa417983cdd922sjut"},
+    {"tv":"tv9","local":"tv9","remote":"tv9.trencherskitchenandtap.com", "errors":0, "device": "eb7851034530919538mztq"},
+    {"tv":"tv10","local":"tv10","remote":"tv10.trencherskitchenandtap.com", "errors":0, "device": "eb2ab615d6faf2d236qrbx"},
+    {"tv":"tv12","local":"tv12","remote":"tv12.trencherskitchenandtap.com", "errors":0, "device": "0288612570039f6ce4b6"},
+    {"tv":"tv13","local":"tv13","remote":"tv13.trencherskitchenandtap.com", "errors":0, "device": "0288612570039f6c6143"}
+],
+"presetUrl":"http://server.trencherskitchenandtap.com:8080/preset.php?preset=",
+"soundUrl":"http://server.trencherskitchenandtap.com:8080/volume.php?step=3&",
+"musicUrl":"http://server.trencherskitchenandtap.com:8080/music.php?",
+"irUrl":"http://server.trencherskitchenandtap.com:8080/ir.php?",
+"trenchersUrl":"http://server.trencherskitchenandtap.com:8080/trenchers.php?",
+"iftttUrl":"https://maker.ifttt.com/trigger/{status}/with/key/cqIznMfzaEQ2XcGtiu4Dr5",
+"guideUrl":"http://server.trencherskitchenandtap.com:8080/guide.php?",
+"smartUrl":"http://server.trencherskitchenandtap.com:8080/smart.php?",
+    "moods":[
+        {"id":"soccer",
+        "name":"Soccer",
+        "icon":"fa-futbol",
+         "music":"",
+         "guide":"Soccer",
+         "tvs:":[
+             {"tv1":214},
+             {"tv7":206}
+         ],
+         "sound":2},
+        {"id":"hockey",
+        "name":"NHL",
+         "guide":"Hockey",
+            "icon":"fa-hockey-puck",
+         "music":"",
+         "tvs:":[
+             {"tv1":214},
+             {"tv7":206}
+         ],
+         "sound":2},
+         {"id":"football",
+        "name":"NFL",
+            "icon":"fa-football",
+         "music":"",
+        "guide":"Football",
+         "tvs:":[
+             {"tv1":214},
+             {"tv7":206}
+         ],
+         "sound":2},
+         {"id":"baseball",
+        "name":"Baseball",
+        "guide":"Baseball",
+            "icon":"fa-baseball-bat-ball",
+         "music":"",
+         "tvs:":[
+             {"tv1":214},
+             {"tv7":206}
+         ],
+         "sound":2},
+         {"id":"basketball",
+         "guide":"Basketball",
+        "name":"Basketball",
+            "icon":"fa-basketball",
+         "music":"",
+         "tvs:":[
+             {"tv1":214},
+             {"tv7":206}
+         ],
+         "sound":2}
+    ]
+}
